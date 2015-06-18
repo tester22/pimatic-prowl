@@ -1,0 +1,28 @@
+{
+  "name": "pimatic-prowl",
+  "description": "Plugin to send Prowl notifications in pimatic",
+  "author": "Anton Delitsch <anton@trugen.net>",
+  "main": "prowl",
+  "files": [
+    "prowl.coffee",
+    "README.md",
+    "prowl-config-schema.coffee"
+  ],
+  "version": "0.0.1",
+  "homepage": "http://github.com/pimatic/pimatic",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tester22/pimatic-prowl.git"
+  },
+  "configSchema": "prowl-config-schema.coffee",
+  "dependencies": {
+    "prowler": "*"
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
