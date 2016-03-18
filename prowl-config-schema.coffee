@@ -5,6 +5,7 @@ module.exports = {
   properties: 
     apikey:
       description:"Prowl apikey"
+      type: "string"
       default: ""
       required: yes
     application: #might be overwritten by predicate
@@ -21,6 +22,7 @@ module.exports = {
       default: ""
     url: #might be overwritten by predicate
       description:"URL which to send with the notification"
+      type: "string"
       format: "url"
       default: ""
     priority: #might be overwritten by predicate
@@ -29,6 +31,4 @@ module.exports = {
         to display as emergency"""
       type: "integer"
       default: 0
-
-
 }
