@@ -6,7 +6,8 @@
   "files": [
     "prowl.coffee",
     "README.md",
-    "prowl-config-schema.coffee"
+    "prowl-config-schema.coffee",
+    "LICENSE"
   ],
   "version": "0.0.1",
   "homepage": "http://github.com/pimatic/pimatic",
@@ -14,12 +15,13 @@
     "type": "git",
     "url": "git://github.com/tester22/pimatic-prowl.git"
   },
+  "license": "GPL-2.0",
   "configSchema": "prowl-config-schema.coffee",
   "dependencies": {
     "prowler": "*"
   },
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": ">=0.8.0 <1.0.0"
   },
   "engines": {
     "node": ">0.8.x",
